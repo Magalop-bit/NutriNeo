@@ -51,6 +51,7 @@ If you need to generate the executable file again, use the following command:
 
 ```bash
 pyinstaller --onefile --windowed \
+--icon=icono.ico \
 --add-data "data/female_percentile_length.csv;data" \
 --add-data "data/female_percentile_weight.csv;data" \
 --add-data "data/male_percentile_length.csv;data" \
